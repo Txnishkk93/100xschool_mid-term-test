@@ -12,7 +12,7 @@ export const LoginSchema=z.object({
     password:z.string().min(6)
 })
 
-export const MeSchema=z.object({
+export const ClassSchema=z.object({
     className:z.string()
 })
 
